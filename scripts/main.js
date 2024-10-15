@@ -1,8 +1,8 @@
-import { addListeners }  from "Listeners.js"
-import { renderGovernors } from "RenderGovoners.js"
-import { renderFacilities } from "RenderFacilities.js"
-import { renderColonyMinerals } from "RenderColonyMinerals.js"
-import { renderFacilityMinerals } from "renderFacilityMinerals.js"
+import { addListeners }  from "./Listeners.js"
+import { renderGovernors } from "./RenderGovoners.js"
+import { renderFacilities } from "./RenderFacilities.js"
+import { renderColonyMinerals } from "./RenderColonyMinerals.js"
+import { renderFacilityMinerals } from "./renderFacilityMinerals.js"
 
 const render = () => {
     
