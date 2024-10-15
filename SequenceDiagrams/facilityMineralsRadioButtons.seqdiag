@@ -1,0 +1,7 @@
+participant Listeners.js
+participant TransientState.js
+participant SpaceCart.js
+Listeners.js->TransientState.js: invokes changeState(facilityMineralId, eventValue)
+note right of TransientState.js: updates facilityMineralId in transientState
+Listeners.js->SpaceCart.js: invokes renderSpaceCart()
+note right of SpaceCart.js: fetches data, generates HTML for the cart, and updates the DOM
