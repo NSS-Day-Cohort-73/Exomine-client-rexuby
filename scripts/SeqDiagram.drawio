@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C8WcghEx3VuYBPsSRe3W" name="Page-1">
-        <mxGraphModel dx="1852" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2012" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -177,18 +177,6 @@
                         <mxPoint x="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
-                    <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="660" y="-1000" as="sourcePoint"/>
-                        <mxPoint x="30" y="-1000" as="targetPoint"/>
-                        <Array as="points"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="38" value="Returns&lt;br&gt;eventListeners" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="37">
-                    <mxGeometry x="-0.1464" relative="1" as="geometry">
-                        <mxPoint x="19" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
                     <mxGeometry width="80" relative="1" as="geometry">
                         <mxPoint x="100" y="-960" as="sourcePoint"/>
@@ -232,7 +220,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="Retuns HTML&lt;br&gt;&amp;nbsp;Gov info sting &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="47">
+                <mxCell id="48" value="Inserts HTML&lt;br&gt;&amp;nbsp;Gov info sting &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="47">
                     <mxGeometry x="0.5013" y="1" relative="1" as="geometry">
                         <mxPoint x="73" as="offset"/>
                     </mxGeometry>
@@ -268,7 +256,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="55" value="Returns Facilities&lt;br&gt;info string &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="54">
+                <mxCell id="55" value="Inserts Facilities&lt;br&gt;info string &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="54">
                     <mxGeometry x="0.519" y="1" relative="1" as="geometry">
                         <mxPoint x="12" as="offset"/>
                     </mxGeometry>
@@ -304,7 +292,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" value="Returns Faciliites&amp;nbsp;&lt;br&gt;Minerals info string &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="60">
+                <mxCell id="61" value="Inserts Faciliites&amp;nbsp;&lt;br&gt;Minerals info string &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="60">
                     <mxGeometry x="0.5133" y="2" relative="1" as="geometry">
                         <mxPoint x="10" as="offset"/>
                     </mxGeometry>
@@ -340,7 +328,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="67" value="Returns Colony&amp;nbsp;&lt;br&gt;Minerals info string&lt;br&gt;&amp;amp; updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="66">
+                <mxCell id="67" value="Inserts Colony&amp;nbsp;&lt;br&gt;Minerals info string&lt;br&gt;&amp;amp; updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="66">
                     <mxGeometry x="0.5051" y="1" relative="1" as="geometry">
                         <mxPoint x="7" as="offset"/>
                     </mxGeometry>
@@ -591,7 +579,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="120" value="Returns Colony&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Minerals info string&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp; updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="119">
+                <mxCell id="120" value="Inserts Colony&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Minerals info string&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp; updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="119">
                     <mxGeometry x="-0.552" y="-2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -615,7 +603,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="124" value="Returns Faciliites&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Minerals info string &amp;amp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="123">
+                <mxCell id="124" value="Incerts Faciliites&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Minerals info string &amp;amp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="123">
                     <mxGeometry x="-0.1274" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
@@ -639,7 +627,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="129" value="Returns RSpace&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Cart info string &amp;amp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="128">
+                <mxCell id="129" value="InsertsRSpace&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Cart info string &amp;amp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="128">
                     <mxGeometry x="0.1482" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
