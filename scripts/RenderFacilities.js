@@ -1,18 +1,18 @@
 
 // fetches facility info from API
 // export const RenderFacilities = async () => {
-//     const response = await fetch("http://localhost:8088/facilities")
+//     const response = await fetch("http://localhost:8088/miningfacilities")
 //     const facilities = await response.json()
 // generate a string of HTML code using fetched data
 
-async function renderFacilities("http://localhost:8088/facilities") {
+export async function renderFacilities() {
     try {
         // Fetch data from the API
-        const response = await fetch("http://localhost:8088/facilities");
+        const response = await fetch("http://localhost:8088/miningfacilities");
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const facilities = await response.json();
+        let facilities = await response.json();
             facilities = facilities.filter(item=> item.active)
         // Determine if any facility is active
         //const isAnyActive = facilities.some(facility => facility.active);
@@ -21,7 +21,7 @@ async function renderFacilities("http://localhost:8088/facilities") {
         let html = `
             
                 <div id="facilities-dropdown">Select Facility</div>
-                <select data-type="facility" data-active="${item.active}">
+                <select data-type="facility">
                     <option value="0"> Make a selection </option> 
         `;
 
@@ -38,12 +38,14 @@ async function renderFacilities("http://localhost:8088/facilities") {
             </select>
         `;
 
-        facilitiesContainer.innerHTML = html;
-    } catch (error) {
-        console.error("Error fetching data or generating HTML:", error);
-        facilitiesContainer.innerHTML = '<p>Error loading facilities. Please try again later.</p>';
+        facilitiesContainer.innerHTML = html;}
+     
+        catch (error) {
+            console.error("Error fetching data or generating HTML:", error);
+                facilitiesContainer.innerHTML = '<p>Error loading facilities. Please try again later.</p>';
     }
 }
+
 
 
 
