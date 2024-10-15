@@ -1,15 +1,15 @@
-import { addListeners }  from "./Listeners.js"
+// import { addListeners }  from "./Listeners.js"
 import { renderGovernors } from "./RenderGovoners.js"
 import { renderFacilities } from "./RenderFacilities.js"
-import { renderColonyMinerals } from "./RenderColonyMinerals.js"
-import { renderFacilityMinerals } from "./renderFacilityMinerals.js"
+// import { renderColonyMinerals } from "./RenderColonyMinerals.js"
+// import { renderFacilityMinerals } from "./renderFacilityMinerals.js"
 
-const render = () => {
+const render = async () => {
     
-    addListeners()
-    renderGovernors()
-    renderFacilities()
-    renderColonyMinerals(0)
-    renderFacilityMinerals(0)
+    // await addListeners()
+    await renderGovernors()
+    await renderFacilities()
+    // await renderColonyMinerals(0)
+    // await renderFacilityMinerals(0)
 }
 render()
