@@ -29,11 +29,9 @@ Table colonyMinerals {
   mineralId int [ref: > minerals.id]
   quantity int
 }
-Table purchases {
+Table purchases_stretchGoal {
   id int [pk]
   governorId int [ref: > governors.id]
-  miningFacilityId int [ref: > miningFacilities.id]
   facilityMineralId int [ref: > facilityMinerals.id]
-  colonyMineralId int [ref: > colonyMinerals.id]
   quantity int
 }
