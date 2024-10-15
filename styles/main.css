@@ -1,0 +1,10 @@
+/* testing space cart css */
+#space-cart-container {
+    background-color: blueviolet;
+    border: 2px dotted cyan;
+}
+/* testing colony minerals css */
+#colony-minerals-container {
+    background-color: fuchsia;
+    border: 2px dotted greenyellow;
+}
