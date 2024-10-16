@@ -1,5 +1,5 @@
 import { renderColonyMinerals } from './RenderColonyMinerals.js'
-import { renderFacilityMinerals } from './RenderFacilitiyMinerals.js'
+import { renderFacilityMinerals } from './RenderFacilityMinerals.js'
 import { renderSpaceCart } from './SpaceCart.js'
 import { changeState, purchaseMinerals, transientState } from './TransientState.js'
 

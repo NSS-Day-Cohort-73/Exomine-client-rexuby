@@ -1,5 +1,5 @@
 import { renderColonyMinerals } from "./RenderColonyMinerals.js" // Importing the function to render the colony minerals view.
-import { renderFacilityMinerals } from "./RenderFacilitiyMinerals.js" // Importing the function to render the facility minerals view. Note: there seems to be a typo in "Facilitiy".
+import { renderFacilityMinerals } from "./RenderFacilityMinerals.js" // Importing the function to render the facility minerals view. Note: there seems to be a typo in "Facilitiy".
 import { renderSpaceCart } from "./SpaceCart.js" // Importing the function to render the space cart.
 
 export let transientState = {

@@ -8,7 +8,7 @@
 export async function renderFacilities() {
     try {
         // Fetch data from the API
-        const response = await fetch("http://localhost:8088/miningfacilities");
+        const response = await fetch("http://localhost:8088/facilities");
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

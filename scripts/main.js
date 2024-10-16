@@ -2,7 +2,7 @@ import { addListeners }  from "./Listeners.js"
 import { renderGovernors } from "./RenderGovernors.js"
 import { renderFacilities } from "./RenderFacilities.js"
 import { renderColonyMinerals } from "./RenderColonyMinerals.js"
-import { renderFacilityMinerals } from "./renderFacilityMinerals.js"
+import { renderFacilityMinerals } from "./RenderFacilityMinerals.js"
 
 const render = async () => {
     
