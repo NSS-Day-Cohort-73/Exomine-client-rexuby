@@ -1,25 +1,33 @@
-
+import { transientState } from "TransientState.js"
 
 export const renderSpaceCart = async () => {
     let response = await fetch ("http://localhost:8088/facilityMinerals?_expand=mineral&_expand=facility")
     let facilityMinerals = await response.json()
 
+    // Get selected facility and mineral from transientState or from your UI
+    const selectedFacilityId = transientState.facilityId; 
+    const selectedMineralId = transientState.mineralId; 
 
+    let spaceCartHTML = `<div id="space-cart">
+        <h2>Space Cart</h2>`;
 
-    let spaceCartHTML = ""
+    // Filter for the selected facility and mineral
+    const filteredItems = facilityMinerals.filter(item => 
+        item.facilityId === selectedFacilityId && item.mineralId === selectedMineralId
+    );
 
-    spaceCartHTML += `<div id = "space-cart">
-        <h2>Space Cart</h2>`
-        
-        html += facilityMinerals.map(item=> `1 tons  of ${item.mineral.name} from ${item.facility.name}`)
+    // Generate the HTML for filtered items
+    if (filteredItems.length > 0) {
+        spaceCartHTML += filteredItems.map(item => 
+            `1 ton of ${item.mineral.name} from ${item.facility.name}<br>`
+        ).join("");
+    } else {
+        spaceCartHTML += "No items found for the selected facility and mineral.";
+    }
 
+    spaceCartHTML += `</div>`;
 
-
-    spaceCartHTML += `</div>`
+    //render spaceCartHTML to DOM
     let spaceCartDOM = document.getElementById("space-cart")
-
-
-
-
-
-    spaceCartDOM.innerHTML = spaceCartHTML}
+    spaceCartDOM.innerHTML = spaceCartHTML
+}
