@@ -78,9 +78,9 @@ export const purchaseMinerals = async () => {
               })
 
               // Re-rendering the updated data for colony minerals, facility minerals, and the space cart.
-              renderColonyMinerals(transientState.governorId) // Rendering the colony minerals for the selected governor.
-              renderFacilityMinerals(transientState.facilityId) // Rendering the facility minerals for the selected facility.
-              renderSpaceCart() // Rendering the updated space cart.
+              await renderColonyMinerals(transientState.governorId) // Rendering the colony minerals for the selected governor.
+              await renderFacilityMinerals(transientState.facilityId) // Rendering the facility minerals for the selected facility.
+              await renderSpaceCart() // Rendering the updated space cart.
     } catch (error) {
         console.error('Error purchasing minerals:', error) // Logging any errors that occur during the purchase process.
     }
