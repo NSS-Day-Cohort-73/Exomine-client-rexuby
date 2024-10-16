@@ -8,8 +8,7 @@ export const renderSpaceCart = async () => {
     const selectedFacilityId = transientState.facilityId; 
     const selectedMineralId = transientState.facilityMineralId; 
 
-    let spaceCartHTML = `<div id="space-cart">
-        <h2>Space Cart</h2>`;
+    let spaceCartHTML = ""
 
     // Filter for the selected facility and mineral
     const filteredItems = facilityMinerals.filter(item => 
@@ -25,7 +24,7 @@ export const renderSpaceCart = async () => {
         spaceCartHTML += "No items found for the selected facility and mineral.";
     }
 
-    spaceCartHTML += `</div>`;
+
 
     //render spaceCartHTML to DOM
     let spaceCartDOM = document.getElementById("space-cart")
