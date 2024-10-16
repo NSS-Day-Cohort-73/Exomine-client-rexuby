@@ -5,28 +5,32 @@ export const renderSpaceCart = async () => {
     let facilityMinerals = await response.json()
 
     // Get selected facility and mineral from transientState or from your UI
-    const selectedFacilityId = transientState.facilityId; 
-    const selectedMineralId = transientState.facilityMineralId; 
+    // const selectedFacilityId = transientState.facilityId; 
+    const selectedFacilityMineralId = transientState.facilityMineralId; 
 
-    let spaceCartHTML = ""
+    const facilityMineral = facilityMinerals.find(item=> item.id === parseInt(selectedFacilityMineralId))
 
-    // Filter for the selected facility and mineral
-    const filteredItems = facilityMinerals.filter(item => 
-        item.facilityId === selectedFacilityId && item.mineralId === selectedMineralId
-    );
+    // let spaceCartHTML = ""
 
-    // Generate the HTML for filtered items
-    if (filteredItems.length > 0) {
-        spaceCartHTML += filteredItems.map(item => 
-            `1 ton of ${item.mineral.name} from ${item.facility.name}<br>`
-        ).join("");
-    } else {
-        spaceCartHTML += "No items found for the selected facility and mineral.";
-    }
+    // // Filter for the selected facility and mineral
+    // const filteredItems = facilityMinerals.filter(item => 
+    //     item.facilityId === selectedFacilityId && item.mineralId === facilityMineral.mineralId
+    // );
 
-
+    // // Generate the HTML for filtered items
+    // if (filteredItems.length > 0) {
+    //     spaceCartHTML += filteredItems.map(item => 
+    //         `1 ton of ${item.mineral.name} from ${item.facility.name}<br>`
+    //     ).join("");
+    // } else {
+    //     spaceCartHTML += "No items found for the selected facility and mineral.";
+    // }
+    let html = ''
+    
+    html = !facilityMineral ? 'Your cart is empty' : `1 ton of ${facilityMineral.mineral.name} from ${facilityMineral.facility.name}` 
 
     //render spaceCartHTML to DOM
     let spaceCartDOM = document.getElementById("space-cart")
-    spaceCartDOM.innerHTML = spaceCartHTML
+    spaceCartDOM.innerHTML = html
 }
+

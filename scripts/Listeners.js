@@ -7,14 +7,18 @@ export const addListeners = () => {
     document.addEventListener('change', async (event) => {
         const eventValue = event.target.value
         const type = event.target.dataset.type
+        const name = event.target.name
 
         if (type === 'governor') {
             await changeState('governorId', eventValue)
             await renderColonyMinerals(eventValue)
         } else if (type === 'facility') {
-            await changeState('facilityMineralsId', 0)
+            await changeState('facilityMineralId', 0)
             await changeState('facilityId', eventValue)
             await renderFacilityMinerals(eventValue)
+            await renderSpaceCart()
+        }else if (name === 'facilityMineral') {
+            await changeState('facilityMineralId', eventValue)
             await renderSpaceCart()
         }
     })
