@@ -22,7 +22,7 @@
       { "id": 6, "name": "Threnody" },
       { "id": 7, "name": "First of the Sun" }
     ],
-    "miningFacilities": [
+    "facilities": [
       { "id": 1, "name": "Ba Sing Se", "active": true },
       { "id": 2, "name": "Omashu", "active": true},
       { "id": 3, "name": "Republic City", "active": true },

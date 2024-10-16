@@ -1,6 +1,6 @@
 export const renderGovernors = async () => {
     try {
-        let governors = await fetch('https://localhost:8088/governors?_expand=colony').then(res=>res.json())
+        let governors = await fetch('http://localhost:8088/governors?_expand=colony').then(res=>res.json())
         //Only display active governors
         governors = governors.filter(item => item.active)
         let html = document.getElementById('governors-container')
