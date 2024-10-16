@@ -18,10 +18,10 @@ export const renderFacilityMinerals = async (facilityId) => {
                 
                 facilityMineralsHTML +=`<h2>Facility Minerals for ${facilityName}</h2>`
                 
-                const divStringArray = selectedFacilityMinerals.map(({ mineralId, quantity, mineral }) => {
+                const divStringArray = selectedFacilityMinerals.map(({ Id, quantity, mineral }) => {
                     return `
                         <div>
-                            <input type="radio" name="facilityMineral" value="${mineralId}"/> 
+                            <input type="radio" name="facilityMineral" value="${Id}"/> 
                              ${quantity} tons of ${mineral.name}
                         </div>
                         `
