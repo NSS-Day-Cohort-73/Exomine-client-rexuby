@@ -11,8 +11,7 @@ export const renderSpaceCart = async () => {
     spaceCartHTML += `<div id = "space-cart">
         <h1>Space Cart</h1>`
         
-        //<li>${transientState.quantity} ton of ${transientState.type} from ${transientState.facility}</li>`
-
+        html += facilityMinerals.map(item=> `${transientState.quantity} tons  of ${facilityMinerals.mineral.name} from ${facilityMinerals.facility.name}`)
 
 
 
