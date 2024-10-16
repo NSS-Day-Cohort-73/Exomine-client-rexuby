@@ -8,3 +8,8 @@
     background-color: fuchsia;
     border: 2px dotted greenyellow;
 }
+/* testing facility minerals css */
+#facility-minerals-container {
+    background-color: blue;
+    border: 2px dotted yellow;
+}
