@@ -6,7 +6,7 @@ export const renderSpaceCart = async () => {
 
     // Get selected facility and mineral from transientState or from your UI
     const selectedFacilityId = transientState.facilityId; 
-    const selectedMineralId = transientState.mineralId; 
+    const selectedMineralId = transientState.facilityMineralId; 
 
     let spaceCartHTML = `<div id="space-cart">
         <h2>Space Cart</h2>`;
