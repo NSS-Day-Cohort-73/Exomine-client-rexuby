@@ -1,15 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+:root {
+    --light-gray: #EBEBEB;
+    --off-white: #FFFBFE;
+    --hot-pink: #e40098e0;
+    --light-pink: #ffb5ef;
+    --light-blue: #F3EFFF;
+    --purple: #2f22a9e0;
+    --dark-gray: #363636;
+  }
+  
+body {
+    font-family: 'Nova Square', sans-serif;
+    background-image: url('../assets/exomineLogo2.jpg');
+    background-size: 100%;
+    background-color: #363636;
+    font-size: 1.5em;
+}
+
+ select{
+    padding: .25em;
+    font-weight: bold;
+    border-radius: .25em;
+    border: 0;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: var(--light-pink);
+ }
+ h1{
+    color: var(--purple);
+    -webkit-text-stroke: .05px #5972ff;
+    text-shadow: 2px 2px 5px #5972ff;
+
+ }
+ 
+ ul{
+    list-style-type: none;
+    padding-left: .5em;
+ }
+button{
+    border: 0;
+    padding: .5em;
+    border-radius: .5em;
+    background-color: var(--light-pink);
+    border: solid .5px var(--light-pink);
+    font-size: 1em;
+
+}
+
+button:hover{
+background-color: #e693d4;
+box-shadow: inset 0 0 10px 3px var(--light-pink);
+border: solid .5px var(--light-pink);
+cursor: pointer;
+}
+
 /* testing space cart css */
 #space-cart-container {
-    background-color: blueviolet;
-    border: 2px dotted cyan;
+    width: 45%;
+    background-color: var(--hot-pink);
+    padding: .5em;
+    border-radius: .5em;
+    gap: 1em;
+    color: var(--light-gray);
+    font-weight: bold;
+    margin: 1em;
+    box-shadow: 0 0 15px 7px #ff59db;
+    
+}
+
+#space-cart-container > h2 {
+    margin-bottom: 0;
+}
+
+#space-cart{
+    padding: 1em;
+    margin-top: 0;
 }
 /* testing colony minerals css */
 #colony-minerals-container {
-    background-color: fuchsia;
-    border: 2px dotted greenyellow;
+    background-color: var(--purple);
+    padding: .5em;
+    color: white;
+    border-radius: .5em;
+    width: 45%;
+    box-shadow: 0 0 15px 7px #5972ff;
 }
 /* testing facility minerals css */
 #facility-minerals-container {
-    background-color: blue;
-    border: 2px dotted yellow;
+    width: 45%;
+    background-color: var(--purple);
+    padding: .5em;
+    border-radius: .5em;
+    gap: 1em;
+    color: var(--light-gray);
+    margin: 1em;
+    box-shadow: 0 0 15px 7px #5972ff;
+    
+}
+
+#governors-and-facilities-container{
+    width: 45%;
+    background-color: var(--hot-pink);
+    padding: .5em;
+    border-radius: .5em;
+    gap: 1em;
+    color: var(--light-gray);
+    font-weight: bold;
+    margin: 1em;
+    box-shadow: 0 0 15px 7px #ff59db;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
 }
