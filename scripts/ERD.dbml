@@ -1,0 +1,37 @@
+Table governors {
+  id int [pk]
+  name varchar
+  colonyId int [ref: > colonies.id]
+  active boolean
+}
+Table colonies {
+  id int [pk]
+  name varchar
+}
+Table miningFacilities {
+  id int [pk]
+  name varchar
+  active boolean
+}
+Table minerals {
+  id int [pk]
+  name varchar
+}
+Table facilityMinerals {
+  id int [pk]
+  miningFacilityId int [ref: > miningFacilities.id]
+  mineralId int [ref: > minerals.id]
+  quantity int
+}
+Table colonyMinerals {
+  id int [pk]
+  colonyId int [ref: > colonies.id]
+  mineralId int [ref: > minerals.id]
+  quantity int
+}
+Table purchases_stretchGoal {
+  id int [pk]
+  governorId int [ref: > governors.id]
+  facilityMineralId int [ref: > facilityMinerals.id]
+  quantity int
+}

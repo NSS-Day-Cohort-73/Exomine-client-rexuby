@@ -1,0 +1,35 @@
+participant index.html
+participant Main.js
+participant RenderGovernors.js
+participant RenderColonyMinerals.js
+
+
+participant RenderFacilityMinerals.js
+
+participant Render Facilities.js
+
+participant TransientState.js
+participant Listeners.js
+participant RenderSpaceCart.js
+participant database.json
+
+
+Main.js->Listeners.js:invokes addListeners()
+note left of Listeners.js:attaches listeners to DOM
+Main.js->RenderGovernors.js:invoke renderGovernors()
+RenderGovernors.js->database.json:fetches gov info
+RenderGovernors.js<--database.json:governors HTML
+note left of RenderGovernors.js:creates governors drop down
+Main.js->RenderColonyMinerals.js:invokes renderColonyMinerals()
+RenderColonyMinerals.js->database.json:fetches colonyMinerals info
+RenderColonyMinerals.js<--database.json:colonyMinerals HTML
+note left of RenderColonyMinerals.js:renders colonyMinerals info in DOM
+Main.js->RenderFacilityMinerals.js:invokes renderFacilityMinerals()
+RenderFacilityMinerals.js->database.json:fetches facilityMinerals info
+RenderFacilityMinerals.js<--database.json:facilityMinerals HTML
+note left of RenderFacilityMinerals.js:renders facilitiyMinerals radio buttons
+Main.js->Render Facilities.js:invokes renderFacilities()
+Render Facilities.js->database.json:fetches facilities info
+Render Facilities.js<--database.json:facilities HTML
+note left of Render Facilities.js:creates facilities drop down
+

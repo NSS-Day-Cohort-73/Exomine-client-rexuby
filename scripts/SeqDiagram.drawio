@@ -1,0 +1,638 @@
+<mxfile host="65bd71144e">
+    <diagram id="C8WcghEx3VuYBPsSRe3W" name="Page-1">
+        <mxGraphModel dx="2012" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="103" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1" source="2" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Main.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="-1090" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Listeners&lt;br&gt;.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-1090" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="-50" as="targetPoint"/>
+                        <mxPoint x="580" y="-1000" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;RenderColonly&lt;br&gt;Minerals.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="-1090" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Render&lt;br&gt;Govoners.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="-1090" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Render&lt;br&gt;Facilities.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="-1090" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="60" y="-1150" as="sourcePoint"/>
+                        <mxPoint x="30" y="310" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="If the value&amp;nbsp;&lt;br&gt;of the Gov &lt;br&gt;drop-down&lt;br&gt;chages&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="-0.1909" y="1" relative="1" as="geometry">
+                        <mxPoint y="-322" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="If the value&amp;nbsp;&lt;br&gt;of the Facility&lt;br&gt;drop-down&lt;br&gt;changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.1659" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="-475" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="If the name =&amp;nbsp;&lt;br&gt;FacilityMinerals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.7794" relative="1" as="geometry">
+                        <mxPoint y="-770" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="If the Purchase&lt;br&gt;Mineral butt is&lt;br&gt;&quot;Clicked&quot;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.6403" y="1" relative="1" as="geometry">
+                        <mxPoint x="9" y="-374" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="If ANY TransState&lt;br&gt;is falsey, excld Quant&lt;br&gt;disply &quot;WindowAlert&quot;.&lt;br&gt;&quot;empty cart&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.7029" relative="1" as="geometry">
+                        <mxPoint x="20" y="-381" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="If Colony&lt;br&gt;DOESNOT&lt;br&gt;have sel Min" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="0.3675" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Index&lt;br&gt;.html&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry y="-1090" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;RenderFacility Minerals.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="-1090" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Transient &lt;br&gt;State.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#E5CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="-1090" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;API&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="-1090" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="RSpace&lt;br&gt;Cart.js" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;fillColor=#99FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="-1090" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Index&lt;br&gt;.html&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry y="760" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Render&lt;br&gt;Facilities.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="760" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;API&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="760" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Render&lt;br&gt;Govoners.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="760" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Transient &lt;br&gt;State.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#E5CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="760" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;RenderColonly&lt;br&gt;Minerals.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="760" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Listeners&lt;br&gt;.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="760" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Main.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="760" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="R Space&lt;br&gt;Cart.js" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;fillColor=#99FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="760" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;RenderFacility Minerals.js&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="760" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="17">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="450" y="-1040" as="sourcePoint"/>
+                        <mxPoint x="530" y="-870" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="13">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="470" y="-970" as="sourcePoint"/>
+                        <mxPoint x="112" y="-800" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="470" y="-970" as="sourcePoint"/>
+                        <mxPoint x="550" y="-970" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="815" y="-920"/>
+                            <mxPoint x="815" y="-840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="15">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="274" y="-1040" as="sourcePoint"/>
+                        <mxPoint x="274" y="-820" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="16">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="470" y="-870" as="sourcePoint"/>
+                        <mxPoint x="550" y="-870" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="Changes the&amp;nbsp;&lt;br&gt;Transient&lt;br&gt;State" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="28">
+                    <mxGeometry x="-0.0772" relative="1" as="geometry">
+                        <mxPoint y="-365" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="20">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="470" y="-1130" as="sourcePoint"/>
+                        <mxPoint x="550" y="-1130" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="21">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="470" y="-1030" as="sourcePoint"/>
+                        <mxPoint x="800" y="-50" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="100" y="-1030" as="sourcePoint"/>
+                        <mxPoint x="660" y="-1030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;font size=&quot;1&quot;&gt;Invokes &lt;br&gt;addListeners&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Comic Sans MS;rotation=0;" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="-0.5615" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="100" y="-960" as="sourcePoint"/>
+                        <mxPoint x="180" y="-960" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="Invoke&amp;nbsp;&lt;br&gt;Render&lt;br&gt;Gov" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="41">
+                    <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+                        <mxPoint x="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="180" y="-940" as="sourcePoint"/>
+                        <mxPoint x="810" y="-940" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="Fetch Gov&amp;nbsp;&lt;br&gt;info from&amp;nbsp;&lt;br&gt;API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="-0.5251" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="810" y="-920" as="sourcePoint"/>
+                        <mxPoint x="180" y="-920" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="Retunns&lt;br&gt;Gov info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="-0.1503" relative="1" as="geometry">
+                        <mxPoint x="-17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="180" y="-900" as="sourcePoint"/>
+                        <mxPoint x="30" y="-900" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="Inserts HTML&lt;br&gt;&amp;nbsp;Gov info sting &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="47">
+                    <mxGeometry x="0.5013" y="1" relative="1" as="geometry">
+                        <mxPoint x="73" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="100" y="-880" as="sourcePoint"/>
+                        <mxPoint x="490" y="-880" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="Invoke Render&lt;br&gt;Facilities" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="49">
+                    <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="490" y="-860" as="sourcePoint"/>
+                        <mxPoint x="810" y="-860" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="Fetch Facilities&lt;br&gt;info from API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="51">
+                    <mxGeometry x="-0.765" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="810" y="-840" as="sourcePoint"/>
+                        <mxPoint x="30" y="-840" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="Inserts Facilities&lt;br&gt;info string &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="54">
+                    <mxGeometry x="0.519" y="1" relative="1" as="geometry">
+                        <mxPoint x="12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="100" y="-810" as="sourcePoint"/>
+                        <mxPoint x="390" y="-810" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Invoke Render&lt;br&gt;Facilities&lt;br&gt;Minerals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="56">
+                    <mxGeometry x="0.6041" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="390" y="-790" as="sourcePoint"/>
+                        <mxPoint x="810" y="-790" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="Fetch Facilities &lt;br&gt;Minerals&lt;br&gt;info from&lt;br&gt;API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="58">
+                    <mxGeometry x="-0.2952" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="810" y="-760" as="sourcePoint"/>
+                        <mxPoint x="30" y="-760" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="Inserts Faciliites&amp;nbsp;&lt;br&gt;Minerals info string &amp;amp;&lt;br&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="60">
+                    <mxGeometry x="0.5133" y="2" relative="1" as="geometry">
+                        <mxPoint x="10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="100" y="-720" as="sourcePoint"/>
+                        <mxPoint x="280" y="-720" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="Invoke Render&lt;br&gt;Colony&lt;br&gt;Minerals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="62">
+                    <mxGeometry x="-0.5489" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="280" y="-710" as="sourcePoint"/>
+                        <mxPoint x="810" y="-710" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="Fetch Colony Minerals&lt;br&gt;info from API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="64">
+                    <mxGeometry x="-0.4272" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-102" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="810" y="-680" as="sourcePoint"/>
+                        <mxPoint x="30" y="-680" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="Inserts Colony&amp;nbsp;&lt;br&gt;Minerals info string&lt;br&gt;&amp;amp; updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="66">
+                    <mxGeometry x="0.5051" y="1" relative="1" as="geometry">
+                        <mxPoint x="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-600" as="sourcePoint"/>
+                        <mxPoint x="570" y="-600" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="Invokes changeState&lt;br&gt;(gov, event)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="70">
+                    <mxGeometry x="-0.2644" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-540" as="sourcePoint"/>
+                        <mxPoint x="280" y="-540" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="Invoke Render&lt;br&gt;Colony Minerals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="73">
+                    <mxGeometry x="-0.1952" y="-2" relative="1" as="geometry">
+                        <mxPoint x="9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="280" y="-520" as="sourcePoint"/>
+                        <mxPoint x="810" y="-520" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="Fetch Colony Minerals&lt;br&gt;info from API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="75">
+                    <mxGeometry x="-0.7736" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="810" y="-500" as="sourcePoint"/>
+                        <mxPoint x="40" y="-500" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="Update DOM&amp;nbsp;&lt;br&gt;w/ new info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="77">
+                    <mxGeometry x="0.4897" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-420" as="sourcePoint"/>
+                        <mxPoint x="570" y="-420" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="Invoke changeState&lt;br&gt;(facilityMinerals, 0)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="80">
+                    <mxGeometry x="0.0789" y="1" relative="1" as="geometry">
+                        <mxPoint x="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="16">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="574.5" y="-870" as="sourcePoint"/>
+                        <mxPoint x="575" y="-50" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="575" y="-460"/>
+                            <mxPoint x="575" y="-410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="Changes the&amp;nbsp;&lt;br&gt;Transient&lt;br&gt;State" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="83">
+                    <mxGeometry x="-0.0772" relative="1" as="geometry">
+                        <mxPoint x="1" y="-272" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="Changes the&amp;nbsp;&lt;br&gt;Transient&amp;nbsp;&lt;br&gt;State" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="83">
+                    <mxGeometry x="0.1014" relative="1" as="geometry">
+                        <mxPoint x="5" y="-348" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="Changes the&amp;nbsp;&lt;br&gt;Transient&amp;nbsp;&lt;br&gt;State" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="83">
+                    <mxGeometry x="0.361" y="1" relative="1" as="geometry">
+                        <mxPoint y="-339" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="If Col DOES&lt;br&gt;have entr in&lt;br&gt;ColMin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="83">
+                    <mxGeometry x="0.3433" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="Reset TranState" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="83">
+                    <mxGeometry x="0.4591" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-340" as="sourcePoint"/>
+                        <mxPoint x="570" y="-340" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="Invoke changeState&lt;br&gt;(facility, event)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="85">
+                    <mxGeometry x="-0.3363" relative="1" as="geometry">
+                        <mxPoint x="21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-290" as="sourcePoint"/>
+                        <mxPoint x="490" y="-290" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="Invoke Render&lt;br&gt;FacilityMinerals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="90">
+                    <mxGeometry x="-0.7133" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="490" y="-260" as="sourcePoint"/>
+                        <mxPoint x="30" y="-260" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="Update DOM&amp;nbsp;&lt;br&gt;w/ new info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="92">
+                    <mxGeometry x="-0.2843" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-220" as="sourcePoint"/>
+                        <mxPoint x="730" y="-220" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="Invoke Render&amp;nbsp;&lt;br&gt;SpaceCart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="94">
+                    <mxGeometry x="-0.7686" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="730" y="-190" as="sourcePoint"/>
+                        <mxPoint x="30" y="-190" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="Update DOM&amp;nbsp;&lt;br&gt;w/ new info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="96">
+                    <mxGeometry x="0.4343" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-120" as="sourcePoint"/>
+                        <mxPoint x="570" y="-120" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="Invoke Change&lt;br&gt;State" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="98">
+                    <mxGeometry x="-0.8052" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="-70" as="sourcePoint"/>
+                        <mxPoint x="740" y="-70" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="Invoke Render&lt;br&gt;SpaceCart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="101">
+                    <mxGeometry x="-0.4096" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" as="sourcePoint"/>
+                        <mxPoint x="570" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="Invoke Change&lt;br&gt;State TWICE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="104">
+                    <mxGeometry x="-0.5459" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-13" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="40" as="sourcePoint"/>
+                        <mxPoint x="730" y="40" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="Invoke RenderSpace&lt;br&gt;Cart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="106">
+                    <mxGeometry x="-0.4394" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="30" y="160" as="sourcePoint"/>
+                        <mxPoint x="570" y="160" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="111" value="Invoke&amp;nbsp;&lt;br&gt;Purchase&lt;br&gt;Minerals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="110">
+                    <mxGeometry x="-0.5867" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="580" y="200" as="sourcePoint"/>
+                        <mxPoint x="810" y="200" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="POST&lt;br&gt;new entr&lt;br&gt;ColonyMin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="112">
+                    <mxGeometry x="-0.595" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="570" y="250" as="sourcePoint"/>
+                        <mxPoint x="280" y="250" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="Invoke&lt;br&gt;Render&lt;br&gt;ColonyMin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="117">
+                    <mxGeometry x="-0.1228" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="280" y="270" as="sourcePoint"/>
+                        <mxPoint x="30" y="270" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="Inserts Colony&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Minerals info string&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;amp; updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="119">
+                    <mxGeometry x="-0.552" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="121" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="570" y="280" as="sourcePoint"/>
+                        <mxPoint x="390" y="280" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" value="Invoke&amp;nbsp;&lt;br&gt;RFacilMin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="121">
+                    <mxGeometry x="-0.5378" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="570" y="300" as="sourcePoint"/>
+                        <mxPoint x="30" y="300" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="Incerts Faciliites&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Minerals info string &amp;amp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="123">
+                    <mxGeometry x="-0.1274" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="580" y="340" as="sourcePoint"/>
+                        <mxPoint x="740" y="340" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="127" value="Invoke&amp;nbsp;&lt;br&gt;RSpace&lt;br&gt;Cart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="126">
+                    <mxGeometry x="-0.5575" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=9;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="740" y="360" as="sourcePoint"/>
+                        <mxPoint x="30" y="360" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="InsertsRSpace&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Cart info string &amp;amp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="128">
+                    <mxGeometry x="0.1482" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

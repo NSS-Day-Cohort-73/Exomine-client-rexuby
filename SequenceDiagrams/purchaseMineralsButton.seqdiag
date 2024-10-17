@@ -1,0 +1,13 @@
+participant Listeners.js
+participant TransientState.js
+participant SpaceCart.js
+participant API
+Listeners.js->Listeners.js: Check if (id === 'purchase-mineral-button')
+Listeners.js->TransientState.js: Check if transientState is empty
+note right of Listeners.js: alerts user if cart is empty
+Listeners.js->TransientState.js: invokes purchaseMinerals() if items exist in cart
+TransientState.js->API: GET colonyMinerals
+API-->TransientState.js: returns colonyMinerals info
+note right of TransientState.js: posts new entry in colonyMinerals or updates quantity
+TransientState.js->SpaceCart.js: invokes renderSpaceCart() after purchase
+note right of SpaceCart.js: updates the DOM with the new cart state

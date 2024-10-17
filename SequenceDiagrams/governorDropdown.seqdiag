@@ -1,0 +1,11 @@
+participant Listeners.js
+participant TransientState.js
+participant RenderColonyMinerals.js
+participant API
+Listeners.js->TransientState.js: invokes changeState(governorId, eventValue)
+note right of TransientState.js: updates governorId in transientState
+Listeners.js->RenderColonyMinerals.js: invokes renderColonyMinerals(eventValue)
+note right of RenderColonyMinerals.js: checks if a governor is selected
+RenderColonyMinerals.js->API: fetches colonyMinerals info
+API-->RenderColonyMinerals.js: returns colonyMinerals info
+note right of RenderColonyMinerals.js: generates HTML for colonyMinerals and updates the DOM

@@ -1,0 +1,12 @@
+participant Listeners.js
+participant TransientState.js
+participant RenderFacilityMinerals.js
+participant API
+Listeners.js->TransientState.js: invokes changeState(facilityMineralsId, 0)
+Listeners.js->TransientState.js: invokes changeState(facilityId, eventValue)
+note right of TransientState.js: updates facilityId in transientState
+Listeners.js->RenderFacilityMinerals.js: invokes renderFacilityMinerals(eventValue)
+note right of RenderFacilityMinerals.js: checks if a facility is selected
+RenderFacilityMinerals.js->API: fetches facilityMinerals info
+API-->RenderFacilityMinerals.js: returns facilityMinerals info
+note right of RenderFacilityMinerals.js: generates HTML for facilityMinerals and updates the DOM
