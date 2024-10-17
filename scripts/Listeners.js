@@ -26,9 +26,11 @@ export const addListeners = () => {
     document.addEventListener('click', async (event) => {
         if (event.target.id === 'purchase-mineral-button') {
             if (Object.values(transientState).some(value => !value)) {
-                window.alert("You don't have any items in your cart!")
+                window.alert("Check your selections!")
             } else {
                 await purchaseMinerals()
+                await changeState('facilityMineralId', 0)
+                await renderSpaceCart() // Rendering the updated space cart
             }
         }
     })
